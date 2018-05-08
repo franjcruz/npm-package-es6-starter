@@ -10,7 +10,7 @@
     "test": "mocha --recursive --require babel-register test",
     "test:coverage": "nyc --require babel-register --reporter lcov --reporter text mocha --recursive test",
     "build": "babel src --presets babel-preset-es2015 --out-dir dist",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "author": "Fran Cruz",
   "repository": {
